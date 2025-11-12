@@ -38,9 +38,9 @@ const Admins = () => {
           display: "flex",
           justifyContent: "center",
           mt: 5,
-          backgroundColor: "black", // background qora
-          minHeight: "100vh",       // ekran bo‘yi
-          alignItems: "center",     // loading markazlashtirish
+          backgroundColor: "black", 
+          minHeight: "100vh",       
+          alignItems: "center",     
         }}
       >
         <CircularProgress sx={{ color: "black" }} />
@@ -52,9 +52,9 @@ const Admins = () => {
     <Box
       sx={{
         p: 3,
-        backgroundColor: "black", // sahifa fonini qora qilamiz
+        backgroundColor: "black", 
         minHeight: "100vh",
-        color: "#fff",             // text oq bo‘lsin
+        color: "#fff",             
       }}
     >
       <Typography variant="h5" sx={{ mb: 3, color: "#fff" }}>
