@@ -19,7 +19,7 @@ const Login: React.FC = () => {
     if (result.success) {
       navigate("/");
     } else {
-      alert("Login muvaffaqiyatsiz boldii " + (result.error || "Noma'lum xato bor oka"));
+      alert("Login yoki parolda xato bor" + (result.error || ""));
     }
   };
 
@@ -133,7 +133,7 @@ const Login: React.FC = () => {
               e.currentTarget.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.15)";
             }}
           >
-            {loading ? "Loaded" : "Kirish"}
+            {loading ? "Loaded..." : "Kirish"}
           </button>
         </form>
       </div>
@@ -171,7 +171,7 @@ const styles = {
     textAlign: "center" as const,
     marginBottom: "30px",
     fontSize: "14px",
-    color: "#777",
+    color: "#fff",
     lineHeight: "20px",
   },
   inputGroup: {

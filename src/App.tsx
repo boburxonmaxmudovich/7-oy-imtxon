@@ -14,7 +14,7 @@ import Exit from "./pages/Exit";
 import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 
-
+  
 function App() {
   return (
     <Routes>
